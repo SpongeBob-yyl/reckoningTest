@@ -113,7 +113,7 @@
 				var countDown=document.getElementById("countdown").firstElementChild;
 				var timeid=setInterval(function(){var count=parseInt(countDown.innerHTML);
 					countDown.innerHTML=--count;}, 1000);
-				setTimeout(function(){container.setAttribute("style","display:block;");questionPage.setAttribute("style","display:none;");clearInterval(timeid);countDown.innerHTML="30";input.value="";score.innerHTML="0";},10000);
+				setTimeout(function(){container.setAttribute("style","display:block;");questionPage.setAttribute("style","display:none;");clearInterval(timeid);countDown.innerHTML="30";input.value="";score.innerHTML="0";},30000);
 			}
 			function questionRecord(){
 				containerChild[2].firstElementChild.innerHTML=record;
